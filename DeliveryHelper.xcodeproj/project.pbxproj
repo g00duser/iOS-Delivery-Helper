@@ -14,13 +14,18 @@
 		AC1F66A01A166FA000B7553B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1F669F1A166FA000B7553B /* main.m */; };
 		AC1F66A41A166FA000B7553B /* DeliveryHelperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1F66A31A166FA000B7553B /* DeliveryHelperAppDelegate.m */; };
 		AC1F66A71A166FA000B7553B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1F66A51A166FA000B7553B /* Main.storyboard */; };
-		AC1F66AA1A166FA000B7553B /* DeliveryHelperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1F66A91A166FA000B7553B /* DeliveryHelperViewController.m */; };
 		AC1F66AC1A166FA000B7553B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1F66AB1A166FA000B7553B /* Images.xcassets */; };
 		AC1F66B31A166FA000B7553B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1F66B21A166FA000B7553B /* XCTest.framework */; };
 		AC1F66B41A166FA000B7553B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1F66931A166FA000B7553B /* Foundation.framework */; };
 		AC1F66B51A166FA000B7553B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1F66971A166FA000B7553B /* UIKit.framework */; };
 		AC1F66BD1A166FA000B7553B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC1F66BB1A166FA000B7553B /* InfoPlist.strings */; };
 		AC1F66BF1A166FA000B7553B /* DeliveryHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1F66BE1A166FA000B7553B /* DeliveryHelperTests.m */; };
+		AC26D9981A1B04700069B34D /* DeliveryStop.m in Sources */ = {isa = PBXBuildFile; fileRef = AC26D9971A1B04700069B34D /* DeliveryStop.m */; };
+		AC26D99B1A1B0A520069B34D /* RouteData.m in Sources */ = {isa = PBXBuildFile; fileRef = AC26D99A1A1B0A520069B34D /* RouteData.m */; };
+		ACB66FDF1A167CBE00D0C082 /* EditAddressesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB66FDE1A167CBE00D0C082 /* EditAddressesViewController.m */; };
+		ACB66FE21A167D0800D0C082 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB66FE11A167D0800D0C082 /* ListTableViewController.m */; };
+		ACB66FE51A167D3A00D0C082 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB66FE41A167D3A00D0C082 /* MapViewController.m */; };
+		ACB66FE71A167D4F00D0C082 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB66FE61A167D4F00D0C082 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +50,23 @@
 		AC1F66A21A166FA000B7553B /* DeliveryHelperAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryHelperAppDelegate.h; sourceTree = "<group>"; };
 		AC1F66A31A166FA000B7553B /* DeliveryHelperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryHelperAppDelegate.m; sourceTree = "<group>"; };
 		AC1F66A61A166FA000B7553B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AC1F66A81A166FA000B7553B /* DeliveryHelperViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliveryHelperViewController.h; sourceTree = "<group>"; };
-		AC1F66A91A166FA000B7553B /* DeliveryHelperViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryHelperViewController.m; sourceTree = "<group>"; };
 		AC1F66AB1A166FA000B7553B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AC1F66B11A166FA000B7553B /* DeliveryHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeliveryHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1F66B21A166FA000B7553B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AC1F66BA1A166FA000B7553B /* DeliveryHelperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeliveryHelperTests-Info.plist"; sourceTree = "<group>"; };
 		AC1F66BC1A166FA000B7553B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC1F66BE1A166FA000B7553B /* DeliveryHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryHelperTests.m; sourceTree = "<group>"; };
+		AC26D9961A1B04700069B34D /* DeliveryStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryStop.h; sourceTree = "<group>"; };
+		AC26D9971A1B04700069B34D /* DeliveryStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliveryStop.m; sourceTree = "<group>"; };
+		AC26D9991A1B0A520069B34D /* RouteData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteData.h; sourceTree = "<group>"; };
+		AC26D99A1A1B0A520069B34D /* RouteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteData.m; sourceTree = "<group>"; };
+		ACB66FDD1A167CBE00D0C082 /* EditAddressesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditAddressesViewController.h; sourceTree = "<group>"; };
+		ACB66FDE1A167CBE00D0C082 /* EditAddressesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditAddressesViewController.m; sourceTree = "<group>"; };
+		ACB66FE01A167D0800D0C082 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		ACB66FE11A167D0800D0C082 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		ACB66FE31A167D3A00D0C082 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		ACB66FE41A167D3A00D0C082 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		ACB66FE61A167D4F00D0C082 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB66FE71A167D4F00D0C082 /* MapKit.framework in Frameworks */,
 				AC1F66961A166FA000B7553B /* CoreGraphics.framework in Frameworks */,
 				AC1F66981A166FA000B7553B /* UIKit.framework in Frameworks */,
 				AC1F66941A166FA000B7553B /* Foundation.framework in Frameworks */,
@@ -101,6 +116,7 @@
 		AC1F66921A166FA000B7553B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ACB66FE61A167D4F00D0C082 /* MapKit.framework */,
 				AC1F66931A166FA000B7553B /* Foundation.framework */,
 				AC1F66951A166FA000B7553B /* CoreGraphics.framework */,
 				AC1F66971A166FA000B7553B /* UIKit.framework */,
@@ -115,8 +131,16 @@
 				AC1F66A21A166FA000B7553B /* DeliveryHelperAppDelegate.h */,
 				AC1F66A31A166FA000B7553B /* DeliveryHelperAppDelegate.m */,
 				AC1F66A51A166FA000B7553B /* Main.storyboard */,
-				AC1F66A81A166FA000B7553B /* DeliveryHelperViewController.h */,
-				AC1F66A91A166FA000B7553B /* DeliveryHelperViewController.m */,
+				ACB66FE31A167D3A00D0C082 /* MapViewController.h */,
+				AC26D9961A1B04700069B34D /* DeliveryStop.h */,
+				AC26D9971A1B04700069B34D /* DeliveryStop.m */,
+				AC26D9991A1B0A520069B34D /* RouteData.h */,
+				AC26D99A1A1B0A520069B34D /* RouteData.m */,
+				ACB66FE41A167D3A00D0C082 /* MapViewController.m */,
+				ACB66FE01A167D0800D0C082 /* ListTableViewController.h */,
+				ACB66FE11A167D0800D0C082 /* ListTableViewController.m */,
+				ACB66FDD1A167CBE00D0C082 /* EditAddressesViewController.h */,
+				ACB66FDE1A167CBE00D0C082 /* EditAddressesViewController.m */,
 				AC1F66AB1A166FA000B7553B /* Images.xcassets */,
 				AC1F669A1A166FA000B7553B /* Supporting Files */,
 			);
@@ -197,7 +221,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = DeliveryHelper;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = EWU;
 				TargetAttributes = {
 					AC1F66B01A166FA000B7553B = {
@@ -250,9 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC1F66AA1A166FA000B7553B /* DeliveryHelperViewController.m in Sources */,
 				AC1F66A41A166FA000B7553B /* DeliveryHelperAppDelegate.m in Sources */,
+				ACB66FDF1A167CBE00D0C082 /* EditAddressesViewController.m in Sources */,
+				ACB66FE51A167D3A00D0C082 /* MapViewController.m in Sources */,
+				AC26D99B1A1B0A520069B34D /* RouteData.m in Sources */,
+				AC26D9981A1B04700069B34D /* DeliveryStop.m in Sources */,
 				AC1F66A01A166FA000B7553B /* main.m in Sources */,
+				ACB66FE21A167D0800D0C082 /* ListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +334,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -345,7 +372,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -403,7 +429,6 @@
 		AC1F66C61A166FA000B7553B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DeliveryHelper.app/DeliveryHelper";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -426,7 +451,6 @@
 		AC1F66C71A166FA000B7553B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DeliveryHelper.app/DeliveryHelper";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -461,6 +485,7 @@
 				AC1F66C41A166FA000B7553B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC1F66C51A166FA000B7553B /* Build configuration list for PBXNativeTarget "DeliveryHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +494,7 @@
 				AC1F66C71A166FA000B7553B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  DeliveryHelperViewController.h
+//  MapViewController.h
 //  DeliveryHelper
 //
 //  Created by Pavlo Bilous on 11/14/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DeliveryHelperViewController : UIViewController
+@interface MapViewController : UIViewController
 
 @end
