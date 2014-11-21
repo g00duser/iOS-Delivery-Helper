@@ -28,16 +28,4 @@
     return [self getSingelton];
 }
 
--(id)initWithStopsList:(NSArray*)sl
-{
-    NSLog(@"Initializes new singelton class");
-    self = [super init];
-    if (self) {
-        // set ivars
-        _stopsList = sl;
-    }
-    
-    return self;
-}
-
 @end

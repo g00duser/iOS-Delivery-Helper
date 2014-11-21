@@ -7,6 +7,8 @@
 //
 
 #import "EditAddressesViewController.h"
+#import "DeliveryStop.h"
+#import "RouteData.h"
 
 @interface EditAddressesViewController ()
 
@@ -125,13 +127,33 @@
     NSString* routeText = _addressesTextView.text;
     
     NSArray* routeStops = [routeText componentsSeparatedByString:@"\n"];
+    NSMutableArray* arrayOfDeliveryStopsObjects = [[NSMutableArray alloc] init];
+    RouteData* data = [RouteData getSingelton];
     
     for (int i = 0; i < routeStops.count; i++)
     {
         NSArray* stopDetails = [routeStops[i] componentsSeparatedByString:@"~"];
         
+        NSNumber* routeNumber = stopDetails[9];
+        NSNumber* numberOfPackages = stopDetails[0];
+        NSNumber* weight = stopDetails[1];
+        BOOL sigReq = NO;
+        if ([stopDetails[2] isEqualToString:@"S"])
+            sigReq = YES;
+        NSString* name = stopDetails[3];
+        NSString* streetNum = stopDetails[4];
+        NSString* streetName = stopDetails[5];
+        NSString* streetAdditional = stopDetails[6];
+        NSString* city = stopDetails[7];
+        NSString* zip = stopDetails[8];
         
+        DeliveryStop* ds = [[DeliveryStop alloc] init];
+        [ds initWithRouteNumber:routeNumber numberOfPackages:numberOfPackages weight:weight signatureRequired:sigReq recipientName:name streetNumber:streetNum streetName:streetName additionalAddressInfo:streetAdditional city:city zipCode:zip];
+        
+        [arrayOfDeliveryStopsObjects addObject:ds];
     }
+    
+    data.stopsList = arrayOfDeliveryStopsObjects;
 }
 
 

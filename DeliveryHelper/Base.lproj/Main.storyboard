@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="20" width="320" height="456"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <mutableString key="text">1~16~C~KRYSTI STENGLE~13210~E 12TH AVE~~SPOKANE VALLEY~99216-0667~390005
+                                <string key="text">1~16~C~KRYSTI STENGLE~13210~E 12TH AVE~~SPOKANE VALLEY~99216-0667~390005
 1~3~C~AMBER DEBENHAM~13401~E 12TH AVE~~SPOKANE VALLEY~99216-0676~390005
 1~2~C~Stephanie Fuhriman~16813~E 18TH CT~~VERADALE~99037-8049~390005
 1~2~C~EDNA RUSSELL~13211~E 23RD AVE~~SPOKANE VALLEY~99216-0411~390005
@@ -80,7 +80,7 @@
 1~2~C~JACQUELINE VOLZ~311~S CALVIN LN~~SPOKANE VALLEY~99216-3104~390005
 1~3~C~ERIN SCHWARTZ~1604~S CLINTON RD~~SPOKANE VALLEY~99216-0420~390005
 1~5~C~JAMES MAGUIRE~2316~S DAVIS CT~~SPOKANE VALLEY~99216-2804~390005
-1~8~C~KEN TITUS~222~S EVERGREEN RD~APT 218~SPOKANE VALLEY~99216-1867~390005</mutableString>
+1~8~C~KEN TITUS~222~S EVERGREEN RD~APT 218~SPOKANE VALLEY~99216-1867~390005</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -179,12 +179,6 @@
                     <view key="view" contentMode="scaleToFill" id="zzo-pn-eB1">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="HUz-X7-W5P">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </mapView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" id="Yw4-Y6-oWe"/>

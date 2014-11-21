@@ -10,32 +10,30 @@
 
 @implementation DeliveryStop
 
-- (void)initWithData:(NSNumber*)routeN
-    numberOfPackages:(NSNumber*)np
-              weight:(NSNumber*)w
-   signatureRequired:(BOOL)sr
-       recipientName:(NSString*)rn
-      buildingNumber:(NSNumber*)bn
-          streetName:(NSString*)sn
-additionalAddressInfo:(NSString*)aai
-                city:(NSString*)c
-             zipCode:(NSNumber*)z
- zipSpecificLocation:(NSNumber*)zsp
+- (void)initWithRouteNumber:(NSNumber*)routeN
+           numberOfPackages:(NSNumber*)np
+                     weight:(NSNumber*)w
+          signatureRequired:(BOOL)sr
+              recipientName:(NSString*)rn
+               streetNumber:(NSString*)snum
+                 streetName:(NSString*)sn
+      additionalAddressInfo:(NSString*)aai
+                       city:(NSString*)c
+                    zipCode:(NSString*)z
 {
     _routeNumber = routeN;
     _numberOfPackages = np;
     _weight = w;
     _signatureRequired = sr;
     _recipientName = rn;
-    _buildingNumber = bn;
+    _streetNumber = snum;
     _streetName = sn;
     _additionalAddressInfo = aai;
     _city = c;
     _zipCode = z;
-    _zipSpecificLocation = zsp;
     
     _completeAddress = [NSString stringWithFormat:@"%@ %@ %@ %@ %@",
-                        _buildingNumber,
+                        _streetNumber,
                         _streetName,
                         _additionalAddressInfo,
                         _city,
